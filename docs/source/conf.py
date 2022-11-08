@@ -1,10 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
-
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'DW-BR'
+copyright = '2022, Andre Pereira'
+author = 'Andre Pereira'
 
 release = '0.1'
 version = '0.1.0'
@@ -17,6 +16,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    # 'myst-parser',
 ]
 
 intersphinx_mapping = {
